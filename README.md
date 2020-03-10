@@ -1,8 +1,8 @@
-# Java_SE_Course
+# [Java_SE_Course]
 Project to review Java and learn new features.
 
 ---
-## What is Java?
+# What is Java?
 
 Java is a high level programming language (although not as high as Python or JavaScript) that helps us build applications for different devices and operating systems.
 
@@ -15,7 +15,7 @@ In this course we will learn the basics of Java Standard Edition: language synta
 But do not worry. Java follows the philosophy of Write Once, Run Anywhere (WORA), so everything you read in this document can also be applied with Java EE.
 
 ---
-## Java and JDK versions
+# Java and JDK versions
 The JDK or Java Development Kit consists of the following elements:
 
 Java Runtime Environment (JRE): The Java virtual machine, which allows us to write the same code to work the same on all devices and operating systems.
@@ -28,3 +28,15 @@ In Java SE 9 they announced that updates would occur every 6 months, but LTS (Lo
 In this course we are going to work with the Java SE 11 LTS version, the first licensed version of Java. We can only use it for free when working in development and testing environments. Otherwise, we must pay USD 2.5 per month per desktop user and USD 25 per processor for server applications.
 
 Fortunately, OpenJDK is a free and open source version of using Java SE Platform Edition.
+
+---
+# The most used Java tools
+Java 8 (LTS) is the most used version of Java until the beginning of 2019, but it will only have support until December 2020, after this date we will have to pay a license to continue with its support.
+
+Java 10 introduced some changes in the way of declaring variables, so in this course we will work with Java versions 8 and 11.
+
+The most used tool to build web projects with Java is Maven, but there are also other alternatives such as Gradle. There are also frameworks like Spring to work with Java EE and ORMs like Hibernate to work with databases.
+
+IDEs are integrated development environments, tools (applications, surely desktop) that help us write our code with editors, compilers, debuggers and graphic interface builders, all in one place.
+
+The IDE recommended by Oracle is NetBeans, but there are also Eclipse and IntelliJ IDEA, the latter is the one that has taken the most strength thanks to Kotlin. All three tools are free, but IntelliJ IDEA also has a paid version.
