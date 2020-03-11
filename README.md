@@ -79,3 +79,28 @@ Remember that our IDE provides us with some shortcuts. For example, just by writ
 4. The JVM (Java Virtual Machine) is responsible for executing the code so that it works on any device or operating system.
 
 Java is a language compiled and interpreted at the same time.
+
+---
+# Variables in Java
+A variable is a memory space (RAM) that contains a numerical, Boolean, text or other slightly more complex data type.
+
+Variables in Java are made up of a unique name and a value that can change throughout the execution of the program. When declaring the variables we must define the type of data that we are going to use and a semicolon at the end:
+
+```java
+// Variables.java
+
+public class Variables {
+  public static void main(String[] args) {
+    // Declare the speed variable of type int (integers)
+    int spped;
+
+    // Update the content of the speed variable:
+    spped = 10; // if you had already declared the variable
+
+    // Declare a variable and assign it a value at the same time:
+    int salary = 1000;
+
+    // Create a variable of type String:
+    String eployeeName = "Anahí Salgado";
+  }
+}
