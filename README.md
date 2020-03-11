@@ -70,3 +70,12 @@ public class HolaMundo {
 ```
 
 Remember that our IDE provides us with some shortcuts. For example, just by writing the word sout we can autocomplete the statement System.out.println () ;.
+
+---
+# Stages of Java programming
+1. Write our .java files.
+2. Compile, upload and verify our files with javac (IDEs allow us to compile with the press of a button).
+3. When compiling we obtain .class files with code that our computers can understand (Byte Code).
+4. The JVM (Java Virtual Machine) is responsible for executing the code so that it works on any device or operating system.
+
+Java is a language compiled and interpreted at the same time.
