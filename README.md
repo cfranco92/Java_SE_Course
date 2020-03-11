@@ -40,3 +40,7 @@ The most used tool to build web projects with Java is Maven, but there are also 
 IDEs are integrated development environments, tools (applications, surely desktop) that help us write our code with editors, compilers, debuggers and graphic interface builders, all in one place.
 
 The IDE recommended by Oracle is NetBeans, but there are also Eclipse and IntelliJ IDEA, the latter is the one that has taken the most strength thanks to Kotlin. All three tools are free, but IntelliJ IDEA also has a paid version.
+
+---
+# Creating a development environment in Java
+* https://adoptopenjdk.net
