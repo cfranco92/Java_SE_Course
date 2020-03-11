@@ -44,3 +44,29 @@ The IDE recommended by Oracle is NetBeans, but there are also Eclipse and Intell
 ---
 # Creating a development environment in Java
 * https://adoptopenjdk.net
+
+---
+# First Hello World in Java
+Java files use the .java extension. Therefore, to create our first “Hello, world” we can do it from a HolaMundo.java file.
+
+The main method is the entry point of an application in different languages such as Java, Kotlin and C ++. Without this method our application will not run and will show an error.
+
+In Java we define this method as follows:
+```java
+public static void main (String[] args) {
+  // acciones
+}
+```
+
+Therefore, this will be the code of our HolaMundo.java and we can execute it with 
+* Right Click> Run 'HelloWorld.main ()':
+
+```java
+public class HolaMundo {
+  public static void main (String[] args) {
+    System.out.println("Hola, mundo!");
+  }
+}
+```
+
+Remember that our IDE provides us with some shortcuts. For example, just by writing the word sout we can autocomplete the statement System.out.println () ;.
