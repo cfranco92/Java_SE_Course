@@ -54,7 +54,7 @@ The main method is the entry point of an application in different languages such
 In Java we define this method as follows:
 ```java
 public static void main (String[] args) {
-  // acciones
+  // actions
 }
 ```
 
@@ -64,7 +64,7 @@ Therefore, this will be the code of our HolaMundo.java and we can execute it wit
 ```java
 public class HolaMundo {
   public static void main (String[] args) {
-    System.out.println("Hola, mundo!");
+    System.out.println("Hello, world!");
   }
 }
 ```
@@ -134,3 +134,15 @@ public class UpdatingVariables {
     }
 }
 ```
+
+---
+# Java Naming Convention
+A naming convention is a pattern that variable names must follow so that the code is organized, understandable, and non-repeating.
+
+Java is case sensitive, this point is key when following a convention.
+
+Variables must always start with a letter symbol, $ or _.
+
+You cannot use the symbol - anywhere in the variable.
+
+Constant variables are variables whose value will never change, so they must be completely capitalized and using the _ character.
