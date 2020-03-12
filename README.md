@@ -160,4 +160,33 @@ int amAnNumberInt = 10;
 ```
 We must use Upper Camel Case in the names of the classes and files. And Lower Camel Case in the names of the variables or methods.
 
+---
+# Types of numerical data
+Data types for integers (without decimals):
 
+Byte: It occupies 1 byte of memory and its range is -128 to 127.
+short: It occupies 2 bytes of memory and its range is -32,768 to 32,727.
+int: It occupies 4 bytes of memory and its range is from -2,147,483,648 to 2,147,483,647. It is very comfortable to use, since it is not so small that our numbers do not fit nor so large as to waste a lot of memory. You can store up to 10 digits.
+long: It occupies 8 bytes of memory and its range is -9,223,372,036,854,775,808 up to 9,223,372,036,854,775,807. To differentiate it from a long data type we must end the number with the letter L.
+For example:
+
+```java
+// Int:
+int n = 1234567890;
+
+// Long:
+long nL = 123456789012345L;
+```
+
+Data types for floating numbers (with decimals):
+* float: They occupy 4 bytes of memory and their range is from 1.40129846432481707e-45 to 3.40282346638528860e + 38. Just as long, we must put a letter F at the end.
+* double: They occupy 8 bytes of memory and their range is from 4.94065645841246544e-324d to 1.79769313486231570e + 308d.
+For example:
+
+```java
+// Double:
+double nD = 123.456123456;
+
+// Float
+float nF = 123,456F;
+```
