@@ -146,3 +146,18 @@ Variables must always start with a letter symbol, $ or _.
 You cannot use the symbol - anywhere in the variable.
 
 Constant variables are variables whose value will never change, so they must be completely capitalized and using the _ character.
+
+---
+# Naming Technique: Camel Case
+Camel Case is a very popular convention for naming our variables. We can use it in Upper Camel Case or Lower Camel Case mode, the difference is if we start the variable name with upper or lower case.
+
+```java
+// Upper Camel Case:
+class SoyUnaClase {};
+
+// Lower Camel Case
+int amAnNumberInt = 10;
+```
+We must use Upper Camel Case in the names of the classes and files. And Lower Camel Case in the names of the variables or methods.
+
+

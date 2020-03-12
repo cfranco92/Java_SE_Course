@@ -8,5 +8,13 @@ public class NamingJava {
 
         String currency$ = "COP";
         String background_color = "BLUE";
+
+        int POSITION = -5;
+        int MAX_WIDTH = 9999;
+        int MIN_WIDTH = 1;
     }
+
+    //Lower Camel Case
+    String fullName = "Cristian Franco Bedoya";
+    int sizeInCentimeters = 26;
 }
