@@ -190,3 +190,17 @@ double nD = 123.456123456;
 // Float
 float nF = 123,456F;
 ```
+
+---
+# Char and boolean data types
+char: It occupies 2 bytes and can only store 1 digit, we must use single quotes instead of double quotes.
+boolean: They are a logical data type, they only accept true and false values. It also occupies 2 bytes and stores only 1 digit.
+Surely you realized that we should always write the data type of our variables before defining their name and value. But this changes from Java 10: we only have to write the reserved word var and Java will define the data type of our variables automatically:
+
+```java
+var salary = 1000; // INT
+var pension = salary * 0.03; // DOUBLE
+var totalSalary = salary - pension; // DOUBLE
+```
+
+Remember that this only works with versions higher than Java 10.
