@@ -204,3 +204,34 @@ var totalSalary = salary - pension; // DOUBLE
 ```
 
 Remember that this only works with versions higher than Java 10.
+
+---
+# Assignment, Increment and Decrement Operators
+Assignment operators:
+
++ =: a + = b is equivalent to a = a + b.
+- =: a - = b is equivalent to a = a - b.
+* =: a * = b is equivalent to a = a * b.
+/ =: a / = b is equivalent to a = a / b.
+% =: a% = b is equivalent to a = a% b.
+
+Increment operators:
+++: i ++ is equivalent to i = i + 1.
+-: i-- is equivalent to i = i - 1.
+We can use these operators in prefix (++ i) or postfix (i ++). The difference is in which operation is executed first:
+
+```java
+// Postfix increment:
+int lives = 5;
+int gift = 100 + lives ++;
+
+System.out.println ("Gift:" + gift + ", lives:" + lives);
+// Gift: 105, lives: 6
+
+// Increment prefix:
+int lives = 5;
+int gift = 100 + ++ lives;
+
+System.out.println ("Gift:" + gift + ", lives:" + lives);
+// Gift: 106, lives: 6
+```
