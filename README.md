@@ -209,11 +209,11 @@ Remember that this only works with versions higher than Java 10.
 # Assignment, Increment and Decrement Operators
 Assignment operators:
 
-+ =: a + = b is equivalent to a = a + b.
-- =: a - = b is equivalent to a = a - b.
-* =: a * = b is equivalent to a = a * b.
-/ =: a / = b is equivalent to a = a / b.
-% =: a% = b is equivalent to a = a% b.
+* (+ =: a + = b is equivalent to a = a + b).
+* (- =: a - = b is equivalent to a = a - b).
+* (* =: a * = b is equivalent to a = a * b).
+* (/ =: a / = b is equivalent to a = a / b).
+* (% =: a% = b is equivalent to a = a% b).
 
 Increment operators:
 ++: i ++ is equivalent to i = i + 1.
@@ -328,3 +328,24 @@ System.out.println (c); // 2.5
 That is, since a and b are of type int, the result of an operation between both variables will be of type int, so it will not have decimals, but if we save the result of this division in a variable of type double we will add a .0.
 
 This can be solved if we indicate that in addition to the variable c being of type double, the value of this variable must also be of type double. This means that Java will execute the division between a and b as if they were of type double, so they will have decimals despite having been initially defined as integers.
+
+---
+# .JAR files
+JAR (Java Archive) files are Java files with the code compiled from the .class files and compressed with the ZIP format so that they are later interpreted and executed by the Java virtual machine (JVM).
+
+To generate these files we can enter File> Project Structure> Artifacts and select the option JAR> From modules with dependencies. After this we can compile our project from Build> Build Artifacts> Build and we will be able to put our executable files in the folder out / artifacts /.
+
+JAVA VERSION
+```
+$ /usr/libexec/java_home -V
+```
+
+CHANGE JAVA VERSION
+```
+$ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8.0_242)
+```
+
+RUN JAR - OUT/ARTIFACTS/[ARTIFACTNAME]/[ARTIFACTFILE]
+```
+$ java -jar HelloWorld.jar
+```
