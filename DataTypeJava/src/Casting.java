@@ -19,5 +19,16 @@ public class Casting {
 
         System.out.println(a / b); // 2
         System.out.println((double) a/b);// 2.5
+
+        double c = (double) a/b;
+        System.out.println(c);
+
+        char n = '1';
+        int nI = n;
+
+        System.out.println(nI);
+
+        short nS = (short) n;
+        System.out.println(nS);
     }
 }

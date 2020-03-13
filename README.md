@@ -294,3 +294,37 @@ int b = 12;
 System.out.println(a / b); // 2
 System.out.println((double) a/b);// 2.5
 ```
+
+---
+# Casting between data types
+Java helps us to automatically cast smaller data types to larger ones.
+
+However, in some cases we will need to cast manually, as we learned in the previous class ((dataType) variableOperation).
+
+For example: suppose we declare two variables a and b of type int and one variable c of type double that is equal to the division of the first two variables.
+
+In this case, although we define that the data type of c is double, Java will automatically convert the result of the division to type int, since this is the data type of the two variables that we divide, but it will still respect that the variable c it is of type double and will add a decimal at the end (.0).
+
+This means that many of our operations may be affected. For example:
+
+```java
+int a = 30;
+int b = 12;
+
+double c = a / b;
+System.out.println (c); // 2.0 (??)
+```
+
+In this case, since Java converts our variables automatically, we must tell our variable c (of type double) to cast its value so that Java does not alter the values ​​of the variables and the result of the operation is correct:
+
+```java
+int a = 30;
+int b = 12;
+
+double c = (double) a / b;
+System.out.println (c); // 2.5
+```
+
+That is, since a and b are of type int, the result of an operation between both variables will be of type int, so it will not have decimals, but if we save the result of this division in a variable of type double we will add a .0.
+
+This can be solved if we indicate that in addition to the variable c being of type double, the value of this variable must also be of type double. This means that Java will execute the division between a and b as if they were of type double, so they will have decimals despite having been initially defined as integers.
